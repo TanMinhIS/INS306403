@@ -11,6 +11,11 @@
     $y = $_GET['y'];
     echo "x: " . $x . "<br/>";
     echo "y: " . $y . "<br/>";
+    echo " $x + $y = " . ($x + $y) . "<br/>";
+    echo " $x - $y = " . ($x - $y) . "<br/>";
+    echo " $x * $y = " . ($x * $y) . "<br/>";
+    echo " $x / $y = " . ($x / $y) . "<br/>";
+    echo " $x % $y = " . ($x % $y) . "<br/>";
     echo "x/y: " . ($x/$y) . "<br/>";
     echo "x%y: " . ($x%$y) . "<br/>";
     echo "x++: " . ($x++) . "<br/>";
